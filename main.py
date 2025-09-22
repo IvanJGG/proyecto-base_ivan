@@ -6,13 +6,16 @@ def main():
     while True:
         print("\n--- Calculadora ---")
         print("1. Potencia")
-        print("2. Salir")
+        print("2. Raíz")
+        print("3. Salir")
         
         opcion = input("Elige una opción: ")
 
         if opcion == "1":
-            calc.potencia()   
+            calc.potencia()
         elif opcion == "2":
+            calc.raiz()
+        elif opcion == "3":
             print("Saliendo...")
             break
         else:
